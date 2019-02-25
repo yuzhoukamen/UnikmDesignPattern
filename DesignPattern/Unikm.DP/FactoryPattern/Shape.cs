@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 namespace Unikm.DP.FactoryPattern
 {
     /// <summary>
-    /// 
+    /// 创建一个接口
     /// </summary>
-    public class Shape
+    interface Shape
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        void Draw();
     }
 }
