@@ -1,2 +1,1 @@
-# -DesignPattern
-c#   Design pattern
+c# 设计模式
