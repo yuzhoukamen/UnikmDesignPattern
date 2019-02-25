@@ -9,7 +9,7 @@ namespace Unikm.DP.FactoryPattern
     /// <summary>
     /// 创建一个接口
     /// </summary>
-    interface Shape
+    public interface IShape
     {
         /// <summary>
         /// 
