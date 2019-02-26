@@ -52,8 +52,5 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FactoryPattern\Rectangle.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="FactoryPattern\documents\readme.md" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
