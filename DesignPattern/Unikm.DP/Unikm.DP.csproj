@@ -44,6 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryPattern\AbstractFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\Blue.cs" />
+    <Compile Include="AbstractFactoryPattern\Circle.cs" />
+    <Compile Include="AbstractFactoryPattern\Green.cs" />
+    <Compile Include="AbstractFactoryPattern\IColor.cs" />
+    <Compile Include="AbstractFactoryPattern\IShape.cs" />
+    <Compile Include="AbstractFactoryPattern\Rectangle.cs" />
+    <Compile Include="AbstractFactoryPattern\Red.cs" />
+    <Compile Include="AbstractFactoryPattern\ShapeFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\Square.cs" />
     <Compile Include="FactoryPattern\Circle.cs" />
     <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
     <Compile Include="FactoryPattern\IShape.cs" />
@@ -52,5 +62,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FactoryPattern\Rectangle.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
