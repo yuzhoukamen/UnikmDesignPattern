@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.FactoryPattern
+namespace FactoryPattern
 {
     /// <summary>
     /// 创建一个工厂，生成基于给定信息的实体类的对象。

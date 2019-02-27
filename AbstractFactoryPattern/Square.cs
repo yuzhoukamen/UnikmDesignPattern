@@ -4,16 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.AbstractFactoryPattern
+namespace AbstractFactoryPattern
 {
-    public class Circle : IShape
+    /// <summary>
+    /// 
+    /// </summary>
+    public class Square : IShape
     {
         /// <summary>
         /// 
         /// </summary>
         public void Draw()
         {
-            Console.WriteLine("Inside Circle::draw() method.");
+            Console.WriteLine("Inside Square::draw() method.");
         }
     }
 }

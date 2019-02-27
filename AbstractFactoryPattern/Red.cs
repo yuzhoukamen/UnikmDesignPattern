@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.AbstractFactoryPattern
+namespace AbstractFactoryPattern
 {
     /// <summary>
     /// 
     /// </summary>
-    public class Rectangle : IShape
+    public class Red : IColor
     {
         /// <summary>
         /// 
         /// </summary>
-        public void Draw()
+        public void Fill()
         {
-            Console.WriteLine("Inside Rectangle::draw() method.");
+            Console.WriteLine("Inside Red::fill() method.");
         }
     }
 }

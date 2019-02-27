@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.AbstractFactoryPattern
+namespace AbstractFactoryPattern
 {
     /// <summary>
     /// 
     /// </summary>
-    public class Green : IColor
+    public class Blue : IColor
     {
         public void Fill()
         {
-            Console.WriteLine("Inside Green::fill() method.");
+            Console.WriteLine("Inside Blue::fill() method.");
         }
     }
 }

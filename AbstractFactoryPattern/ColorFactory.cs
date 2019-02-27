@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.AbstractFactoryPattern
+namespace AbstractFactoryPattern
 {
     public class ColorFactory : AbstractFactory
     {

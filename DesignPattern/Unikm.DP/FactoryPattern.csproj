@@ -7,8 +7,8 @@
     <ProjectGuid>{B2EFC4A9-B6BE-40F5-A542-69E886D3F371}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unikm.DP</RootNamespace>
-    <AssemblyName>Unikm.DP</AssemblyName>
+    <RootNamespace>FactoryPattern</RootNamespace>
+    <AssemblyName>FactoryPattern</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -44,25 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactoryPattern\AbstractFactory.cs" />
-    <Compile Include="AbstractFactoryPattern\Blue.cs" />
-    <Compile Include="AbstractFactoryPattern\Circle.cs" />
-    <Compile Include="AbstractFactoryPattern\ColorFactory.cs" />
-    <Compile Include="AbstractFactoryPattern\FactoryProducer.cs" />
-    <Compile Include="AbstractFactoryPattern\Green.cs" />
-    <Compile Include="AbstractFactoryPattern\IColor.cs" />
-    <Compile Include="AbstractFactoryPattern\IShape.cs" />
-    <Compile Include="AbstractFactoryPattern\Rectangle.cs" />
-    <Compile Include="AbstractFactoryPattern\Red.cs" />
-    <Compile Include="AbstractFactoryPattern\ShapeFactory.cs" />
-    <Compile Include="AbstractFactoryPattern\Square.cs" />
-    <Compile Include="FactoryPattern\Circle.cs" />
-    <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
-    <Compile Include="FactoryPattern\IShape.cs" />
-    <Compile Include="FactoryPattern\ShapeFactory.cs" />
-    <Compile Include="FactoryPattern\Square.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="FactoryPatternDemo.cs" />
+    <Compile Include="IShape.cs" />
+    <Compile Include="ShapeFactory.cs" />
+    <Compile Include="Square.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FactoryPattern\Rectangle.cs" />
+    <Compile Include="Rectangle.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

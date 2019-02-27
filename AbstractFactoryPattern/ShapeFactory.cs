@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.AbstractFactoryPattern
+namespace AbstractFactoryPattern
 {
+    /// <summary>
+    /// 创建扩展了 AbstractFactory 的工厂类，基于给定的信息生成实体类的对象。
+    /// </summary>
     public class ShapeFactory : AbstractFactory
     {
         /// <summary>

@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.FactoryPattern
+namespace FactoryPattern
 {
     /// <summary>
     /// 
     /// </summary>
-    public class Rectangle : IShape
+    public class Circle : IShape
     {
         /// <summary>
         /// 
         /// </summary>
         public void Draw()
         {
-            Console.WriteLine("Inside Rectangle::draw() method.");
+            Console.WriteLine("Inside Circle::draw() method.");
         }
     }
 }

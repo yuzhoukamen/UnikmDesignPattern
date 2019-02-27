@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.FactoryPattern
+namespace AbstractFactoryPattern
 {
     /// <summary>
-    /// 创建一个接口
+    /// 
     /// </summary>
-    public interface IShape
+    public interface IColor
     {
         /// <summary>
         /// 
         /// </summary>
-        void Draw();
+        void Fill();
     }
 }

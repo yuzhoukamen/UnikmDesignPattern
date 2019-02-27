@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.FactoryPattern
+namespace FactoryPattern
 {
     /// <summary>
     /// 

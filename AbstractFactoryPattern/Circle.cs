@@ -4,11 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unikm.DP.FactoryPattern
+namespace AbstractFactoryPattern
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public class Circle : IShape
     {
         /// <summary>
