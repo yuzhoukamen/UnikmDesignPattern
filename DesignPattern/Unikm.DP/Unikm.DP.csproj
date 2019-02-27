@@ -47,6 +47,8 @@
     <Compile Include="AbstractFactoryPattern\AbstractFactory.cs" />
     <Compile Include="AbstractFactoryPattern\Blue.cs" />
     <Compile Include="AbstractFactoryPattern\Circle.cs" />
+    <Compile Include="AbstractFactoryPattern\ColorFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\FactoryProducer.cs" />
     <Compile Include="AbstractFactoryPattern\Green.cs" />
     <Compile Include="AbstractFactoryPattern\IColor.cs" />
     <Compile Include="AbstractFactoryPattern\IShape.cs" />
