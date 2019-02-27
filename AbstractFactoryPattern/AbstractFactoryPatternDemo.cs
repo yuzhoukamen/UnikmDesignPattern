@@ -56,6 +56,8 @@ namespace AbstractFactoryPattern
 
             //调用 Blue 的 fill 方法
             color3.Fill();
+
+            Console.ReadLine();
         }
     }
 }

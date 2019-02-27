@@ -26,6 +26,7 @@ namespace AbstractFactoryPattern
             {
                 return new ColorFactory();
             }
+
             return null;
         }
     }
