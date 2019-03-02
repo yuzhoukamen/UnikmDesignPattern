@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BuilderPattern
 {
     /// <summary>
-    /// 
+    /// 鸡肉汉堡
     /// </summary>
     public class ChickenBurger : Burger
     {

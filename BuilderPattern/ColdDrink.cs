@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BuilderPattern
 {
+    /// <summary>
+    /// 冷饮
+    /// </summary>
     public abstract class ColdDrink : IItem
     {
         /// <summary>

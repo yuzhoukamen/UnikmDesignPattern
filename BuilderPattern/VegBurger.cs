@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace BuilderPattern
 {
     /// <summary>
+    /// 素食汉堡
     /// 创建扩展了 Burger 的实体类。
     /// </summary>
     public class VegBurger : Burger

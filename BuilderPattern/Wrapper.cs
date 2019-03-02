@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace BuilderPattern
 {
     /// <summary>
+    /// 
     /// 包装器
     /// 创建实现 IPacking 接口的实体类。
     /// </summary>

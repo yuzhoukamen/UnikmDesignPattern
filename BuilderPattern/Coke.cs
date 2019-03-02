@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace BuilderPattern
 {
     /// <summary>
+    /// 可口可乐
     /// 创建扩展了 ColdDrink 的实体类。
     /// </summary>
     public class Coke : ColdDrink
