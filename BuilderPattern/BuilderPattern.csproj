@@ -50,6 +50,8 @@
     <Compile Include="IItem.cs" />
     <Compile Include="IPacking.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Coke.cs" />
+    <Compile Include="VegBurger.cs" />
     <Compile Include="Wrapper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

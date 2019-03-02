@@ -12,7 +12,7 @@ namespace BuilderPattern
         /// 
         /// </summary>
         /// <returns></returns>
-        public string Name()
+        public virtual string Name()
         {
             return "ColdDrink";
         }

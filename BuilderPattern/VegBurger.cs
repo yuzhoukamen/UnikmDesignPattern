@@ -7,28 +7,26 @@ using System.Threading.Tasks;
 namespace BuilderPattern
 {
     /// <summary>
-    /// 创建实现 Item 接口的抽象类，该类提供了默认的功能。
+    /// 创建扩展了 Burger 的实体类。
     /// </summary>
-    public abstract class Burger : IItem
+    public class VegBurger : Burger
     {
         /// <summary>
         /// 
         /// </summary>
         /// <returns></returns>
-        public virtual string Name()
+        public override string Name()
         {
-            return "Burger";
+            return "Veg Burger";
         }
 
         /// <summary>
         /// 
         /// </summary>
         /// <returns></returns>
-        public IPacking Packing()
+        public override float Price()
         {
-            return new Wrapper();
+            return 25.0f;
         }
-
-        public abstract float Price();
     }
 }
