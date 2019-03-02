@@ -46,9 +46,12 @@
   <ItemGroup>
     <Compile Include="Bottle.cs" />
     <Compile Include="Burger.cs" />
+    <Compile Include="ChickenBurger.cs" />
     <Compile Include="ColdDrink.cs" />
     <Compile Include="IItem.cs" />
     <Compile Include="IPacking.cs" />
+    <Compile Include="Meal.cs" />
+    <Compile Include="Pepsi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Coke.cs" />
     <Compile Include="VegBurger.cs" />
