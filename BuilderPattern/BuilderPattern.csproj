@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bottle.cs" />
+    <Compile Include="Burger.cs" />
+    <Compile Include="ColdDrink.cs" />
     <Compile Include="IItem.cs" />
     <Compile Include="IPacking.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
